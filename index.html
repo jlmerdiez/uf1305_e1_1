@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ejercicio E1 - 1</title>
+  <title>MF0951_2 - UF1305 - Ejercicio E1 - 1</title>
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
-  <header>
-    
-  </header>
-  <nav>
 
-  </nav>
-  <main>
-
-  </main>
-  <footer>
-
-  </footer>
+<body onload="copyAnio();">
+  <div class="contenedor">
+    <header class="cabecera">
+      <h1>CERTIFICADO DE PROFESIONALIDAD - IFCD0110 - MÓDULO MF0951_2 - UNIDAD FORMATIVA UF1305 - E1</h1>
+    </header>
+    <nav class="enlaces">
+      <a href="#" onclick="fechaHora();">FECHA-HORA</a><br>
+      <a href="#" onclick="voltear();">VOLTEAR</a>
+    </nav>
+    <main class="contenidos">
+      <p id="fechahora"></p>
+    </main>
+    <footer class="pie">
+      &copy; <span id="copyanio"></span> Página realizada por José Luis Merino Diez.
+    </footer>
+  </div>
+  <script src="js/codigo.js"></script>
 </body>
+
 </html>
