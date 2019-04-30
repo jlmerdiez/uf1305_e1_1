@@ -9,7 +9,7 @@ function voltear() {
 
   if (numero != null && numero.length > 1) {
 		invertido = invertir(numero);
-    alert("El número " + numero + " invertido es " + invertido);
+    alert("El número " + numero + " invertido es " + invertido + '.');
   } else {
 		alert("Lo que ha introducido no es válido. Vuelva a intentarlo.");
 	}
